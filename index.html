@@ -8,29 +8,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-            <div class = "tits">Word Counter</div>
+
+    <div class = "main">
+
+   
 
     <div class = "container">
 
-       
         <div class = "center">
-
+            <p>Word Counter</p>
             <div class = "contents">
 
-                      <textarea class = "a"></textarea>
+
+                <div class = "textDiv">
+                                          <textarea id = "word"></textarea>
+
+                </div>
 
           
-                     <button class = "btn">Submit</button>
+                      <div class = "btnDiv">
+                                             <button class = "btn" onclick="calculate()">Submit</button>
+
+                      </div>
             
-            <p>Result: 0 0 0</p>
+            <div class = "results">
+            <p id = "count">Word: 0</p>
+            <p id = "char">Characters: 0</p>
+            <p id = "spaces">Spaces: 0</p>
+            </div>
+            
             </div>
           
             
-
+ <div class = "footer">
+        <p>Tufael 2022</p>
+    </div>
 
         </div>
 
     </div>
+
+   
+ </div>
+    <script src = "app.js"></script>
     
 </body>
 </html>
